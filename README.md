@@ -105,6 +105,14 @@ The frontend features a "Classy" design using a color palette inspired by the It
 - **Wine Red** (`#722F37`)
 - **Cream** (`#F5F5DC`)
 
+## 📸 Screenshots
+
+![Landing Page](assets/screenshot1.png)
+*Variant A: Luxury & Relaxation*
+
+![Booking Flow](assets/screenshot2.png)
+*Variant B: Authentic Flavors*
+
 ## 📝 License
 
 This project is open source and available under the [MIT License](LICENSE).
