@@ -70,6 +70,12 @@ npm run dev
 ```
 *App running at: `http://localhost:5173`*
 
+### 2.1 Frontend Overview
+```bash
+Screenshot 2025-11-22 054712.jpeg
+Screenshot 2025-11-22 054801.jpeg
+```
+
 ### 3. Run Simulation
 Generate synthetic data and run the analysis to see the A/B test results.
 ```bash
