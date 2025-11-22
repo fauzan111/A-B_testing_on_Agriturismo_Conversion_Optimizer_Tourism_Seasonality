@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Node
+node_modules/
+dist/
+.DS_Store
+
+# Project Specific
+backend/sql_app.db
+experiment_data.csv
+analysis_results.txt
+debug_script.py

@@ -1,0 +1,155 @@
+:root {
+  --color-olive: #556B2F;
+  --color-cream: #F5F5DC;
+  --color-wine: #722F37;
+  --color-text: #333;
+  --color-light-text: #666;
+  --font-heading: 'Playfair Display', serif;
+  --font-body: 'Lato', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  background-color: var(--color-cream);
+  color: var(--color-text);
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-heading);
+  color: var(--color-olive);
+}
+
+button {
+  cursor: pointer;
+  font-family: var(--font-body);
+  transition: all 0.3s ease;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Classy Header */
+header {
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--color-wine);
+}
+
+.lang-switch button {
+  background: none;
+  border: 1px solid var(--color-olive);
+  padding: 5px 10px;
+  margin-left: 10px;
+  color: var(--color-olive);
+}
+
+.lang-switch button.active {
+  background-color: var(--color-olive);
+  color: white;
+}
+
+/* Hero Section */
+.hero {
+  padding: 80px 0;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  position: relative;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.4);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.cta-button {
+  background-color: var(--color-wine);
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.cta-button:hover {
+  background-color: #5a242b;
+}
+
+/* Features */
+.features {
+  padding: 60px 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+}
+
+.feature-card {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.feature-icon {
+  font-size: 2rem;
+  color: var(--color-olive);
+  margin-bottom: 15px;
+}
+
+/* Booking Form */
+.booking-section {
+  background-color: #fff;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.booking-form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.booking-form input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.success-message {
+  color: var(--color-olive);
+  font-weight: bold;
+  margin-top: 20px;
+}
