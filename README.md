@@ -71,7 +71,7 @@ npm run dev
 *App running at: `http://localhost:5173`*
 
 ### 📸 Factory Operator Dashboard
-The interface allows operators to upload samples and see real-time inference results with confidence scores.
+The interface allows user to book the Living space with the food of their choice.
 
 ![Frontend booking](doc/Frontend_Booking.jpeg)
 ![Frontend Booked](doc/Frontend_booking_done.jpeg)
